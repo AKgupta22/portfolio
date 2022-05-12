@@ -1,0 +1,329 @@
+/* Defaulit body and reset  */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* reset  */
+
+/* body  */
+
+body {
+    background-color: #f1f1f1;
+}
+
+/* body only ends  */
+
+/* main body of left and right  */
+
+#main-body {
+    /* border: 2px solid red; */
+    margin: 15px 20px;
+    width: 100%;
+    height: 1180px;
+    display: flex;
+    background-color: #f1f1f1;
+}
+
+/* main body end  */
+
+
+/* left section  */
+
+.left {
+    /* border: 2px solid green; */
+    height: 1117px;
+    width: 37%;
+    margin: 22px 10px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+/* left name sec  */
+.left .name-sec {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.name-sec img {
+    width: 100%;
+    height: 262px;
+    margin-bottom: 20px;
+
+}
+
+.left .name-sec ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.left .name-sec ul li {
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #757575;
+}
+
+.left .name-sec ul li i {
+    color: #009688;
+    margin: 2px 10px 5px 2px;
+}
+
+/* left name sec ends  */
+
+/* skills section of left */
+
+.skills {
+    padding: 5px 15px;
+    margin: 15px 10px;
+}
+
+/* lang section  */
+
+.lang {
+    margin-top: 25px;
+    padding: 10px;
+}
+
+/* lang sec ends  */
+
+.lang .lang1 {
+    width: 95%;
+}
+
+.skills h1 {
+    font-size: 24px;
+    color: #757575;
+    font-weight: 400;
+}
+
+.skills h1 i {
+    font-size: 25px;
+    color: #009688;
+    margin: 3px 15px 15px 0;
+}
+
+.percent {
+    padding: 3px 6px;
+    width: 90%;
+
+}
+
+.percent h1 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 10px;
+
+}
+
+.perc {
+    border-radius: 20px;
+    border: 1px solid transparent;
+    outline: none;
+    background-color: #f1f1f1;
+    margin: 5px 10px;
+    width: 100%;
+
+}
+
+.percent p {
+
+    padding: 5px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    outline: none;
+    background-color: #009688;
+    font-size: 10px;
+
+
+}
+
+#percent1 {
+    width: 80%;
+}
+
+#percent2 {
+    width: 60%;
+}
+
+#percent3 {
+    width: 20%;
+}
+
+
+/* skiils section ends  */
+
+/* left section ends  */
+
+/* right section  */
+.right {
+    height: 1130px;
+    width: 62%;
+    margin: 15px 10px 15px 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* right work section  */
+.right .work {
+    /* border: 50px outset transparent; */
+    height: 650px;
+    width: 85%;
+    margin: 8px 2px;
+    padding: 5px 2px;
+    background-color: white;
+    position: relative;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.work .work-head {
+    display: flex;
+    margin: 12px 13px;
+
+
+}
+
+.work .work-head i {
+    margin-right: 25px;
+    font-size: 40px;
+    color: #009688;
+}
+
+.work .work-head h2 {
+    font-size: 35px;
+    color: #757575;
+
+}
+
+.company {
+    margin: 7px;
+    padding: 15px;
+}
+
+.company-des {
+    margin: 5px;
+    padding: 4px
+}
+
+.company-des h2 {
+    color: #757575;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.company-des h3 {
+    color: #009688;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.company-des p {
+    font-size: 18px;
+    word-spacing: 2px;
+    word-spacing: 1px;
+    margin: 5px 0;
+    color: black;
+}
+
+/* right education section  */
+
+.right .education {
+    /* border: 50px outset transparent; */
+    outline: none;
+    height: 450px;
+    width: 85%;
+    margin: 15px 2px 8px 10px;
+    background-color: white;
+
+}
+
+.education .work {
+    border: 20px outset transparent;
+    height: 360px;
+    margin: 8px 8px;
+    padding: 5px 2px;
+    background-color: white;
+}
+
+/* right section section ends  */
+
+/* footer section  */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 230px;
+    background: #009688;
+    color: white;
+}
+
+footer h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.25rem;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 1.25rem;
+}
+
+footer ul li {
+    margin: 0.25rem .75rem;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+    padding: 0.28rem .75rem;
+
+}
+
+footer ul a:hover {
+    color: rgba(255, 255, 255, 0.884)
+}
+
+
+footer h4 {
+    font-size: 1rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+
+}
+
+footer h4 a {
+    text-decoration: none;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+/* footer section ends  */
+
+/* utility classes  */
+
+.btn {
+    padding: 2px 6px;
+    border: 2px solid transparent;
+    outline: none;
+    color: white;
+    background-color: #009688;
+    border-radius: 12px;
+}
