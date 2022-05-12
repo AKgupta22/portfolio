@@ -1,14 +1,9 @@
-html, body {
-   max-width: 110%;
-   overflow-x: hidden;
-}
-
 /* main body  */
 
 #main-body {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 109%;
     height: 185rem;
 }
 /* left section  */
